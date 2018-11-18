@@ -4,7 +4,7 @@
 wc -l <file_name>
 
 wc -l *
-``
+```
 
 
 ###available disk space:
@@ -23,7 +23,5 @@ cat file_a.txt file_b.txt file_c.txt > merged.txt
 
 ```
 cat <file_name_prexfix>*_part.txt >merged_file
-```
-
 ```
 
