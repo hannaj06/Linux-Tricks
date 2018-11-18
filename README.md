@@ -7,19 +7,19 @@ wc -l *
 ```
 
 
-###available disk space:
+### available disk space:
 
 ```
 df -h
 ````
 
-###combining files
+### combining files
 
 ```
 cat file_a.txt file_b.txt file_c.txt > merged.txt
 ```
 
-###combining multi part s3 files:
+### combining multi part s3 files:
 
 ```
 cat <file_name_prexfix>*_part.txt >merged_file
