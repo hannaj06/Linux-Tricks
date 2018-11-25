@@ -25,3 +25,8 @@ cat file_a.txt file_b.txt file_c.txt > merged.txt
 cat <file_name_prexfix>*_part.txt >merged_file
 ```
 
+### deduplicate file:
+
+```
+sort long_list.txt | unique > output_file.txt
+```
