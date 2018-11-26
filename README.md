@@ -13,6 +13,12 @@ wc -l *
 df -h
 ````
 
+### file sizes in a directory:
+
+```
+ll -sh
+```
+
 ### combining files
 
 ```
