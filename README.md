@@ -43,3 +43,8 @@ sort long_list.txt | uniq > output_file.txt
 sed 's/<phrase_a>/<phrase_b>/g' file.txt > output_file.txt
 ```
 
+### appending a file to another file
+
+```
+cat file_a >> file_b
+```
