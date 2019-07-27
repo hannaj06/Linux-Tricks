@@ -7,17 +7,30 @@ wc -l *
 ```
 
 
-### available disk space:
+### system disk space usage:
 
 ```
 df -h
 ````
+
+### estimate usage of a set of files recursively
+
+```
+du -h
+```
+sample:
+```
+365M	./logs/dag_processor_manager
+449M	./logs
+450M	.
+```
 
 ### file sizes in a directory:
 
 ```
 ll -sh
 ```
+
 
 ### combining files
 
