@@ -61,3 +61,8 @@ sed 's/<phrase_a>/<phrase_b>/g' file.txt > output_file.txt
 ```
 cat file_a >> file_b
 ```
+### turn off computer
+
+ ```
+ shutdowwn now
+ ```
