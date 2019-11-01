@@ -6,6 +6,19 @@ wc -l <file_name>
 wc -l *
 ```
 
+### split large text file into smaller ones
+
+```
+split [-l line count] [-b byte count] [file name]
+```
+
+sample:
+split -l 100000 long.txt
+
+output:
+xaa
+xab
+
 
 ### system disk space usage:
 
